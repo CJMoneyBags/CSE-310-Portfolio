@@ -18,6 +18,5 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [w3schools](https://www.w3schools.com/python/)
 * [tutorialspoint](https://www.tutorialspoint.com/python/index.htm)
