@@ -12,7 +12,7 @@
 
 # Development Environment
 
-{I used Atom editor to write my code as it is the native editor for Github}
+{I used Atom editor to write my code, I also used Visual Studio Code Editor to test if my Code worked}
 
 {Python is the only programming language used.}
 
