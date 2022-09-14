@@ -1,14 +1,14 @@
 # Overview
 
-{This is Setup to test to make sure that Github is Setup with my code}
+{This is Setup to test to make sure that Github is working with my code}
 
 {Just a simple one line of Python code that prints "Hello World"}
 
 {I'm creating this software as to test and make sure I can upload code to Github.}
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
+{Here is a link to a video showing that my code works.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Python "Hello World Program"](http://youtu.be/pNuIqjoLv9I?hd=1)
 
 # Development Environment
 
