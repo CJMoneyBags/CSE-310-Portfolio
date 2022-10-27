@@ -39,4 +39,3 @@ communicate with variables in the Views I created.
 * Ability to add rooms without being Admin
 * Ability to not pick rooms that are already picked for a certain time
 * Date and time pickers instead of text boxes
-* 
