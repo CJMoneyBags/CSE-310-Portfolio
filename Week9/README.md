@@ -4,7 +4,7 @@ This is just a basic Tip calculator to get my self familiar with the Kotlin lang
 
 Basically you put in your base amount and then use a slider for the percent of tip you want to give. The tip amount and total amounts are calculated and displayed.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](http://youtu.be/oacbEUPx_Go?hd=1)
 
 # Development Environment
 
