@@ -9,6 +9,12 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     private SpriteRenderer theSR;
+
+    private bool isGrounded;
+    public Transform groundCheckPoint;
+    public LayerMask whatIsGround;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +27,8 @@ public class PlayerController : MonoBehaviour
     {
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), theRB.velocity.y);
 
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround); 
+
         if (theRB.velocity.x < 0)
         {
             theSR.flipX = true;
@@ -32,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
 
         anim.SetFloat("moveSpeed", Mathf.Abs(moveSpeed * Input.GetAxis("Horizontal")));
+        anim.SetBool("isGrounded", isGrounded);
 
     }
 
