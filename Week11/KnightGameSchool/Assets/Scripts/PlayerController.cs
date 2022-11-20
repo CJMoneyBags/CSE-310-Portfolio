@@ -77,10 +77,4 @@ public class PlayerController : MonoBehaviour
         facingRight = !facingRight;
         myRenderer.flipX = !myRenderer.flipX;
     }
-
-
-    public void toggleCanMove()
-    {
-        canMove = !canMove;
-    }
 }

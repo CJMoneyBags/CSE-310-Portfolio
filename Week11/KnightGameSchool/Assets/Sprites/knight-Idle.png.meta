@@ -186,7 +186,7 @@ TextureImporter:
       213: -321835574829416308
     second: knight-Idle_60
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -207,6 +207,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -245,6 +246,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -272,6 +274,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1576,6 +1590,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      knight-Idle_47: -8551658313582430726
+      knight-Idle_14: -3890032271064123669
+      knight-Idle_5: -2178794714420312056
+      knight-Idle_26: 5470470523794488602
+      knight-Idle_50: 1872391892073727278
+      knight-Idle_30: -450920231636846491
+      knight-Idle_41: -2529341035208159221
+      knight-Idle_10: 1061486853446399339
+      knight-Idle_55: -7274832994540277781
+      knight-Idle_0: -2354316335275470200
+      knight-Idle_18: -2375796667839684053
+      knight-Idle_49: 1293274145646099900
+      knight-Idle_40: -9163449409641012955
+      knight-Idle_58: -2076991251132506283
+      knight-Idle_4: -4699062140022379200
+      knight-Idle_53: -7610889755776429278
+      knight-Idle_12: -484469307340998176
+      knight-Idle_28: -2136615100114783419
+      knight-Idle_1: 1554714207909484603
+      knight-Idle_21: -6344781253927841318
+      knight-Idle_22: 3823677402843836908
+      knight-Idle_25: -8158413466521092812
+      knight-Idle_39: -2335208297739450156
+      knight-Idle_48: -5538035653587992998
+      knight-Idle_31: 8652810835282036804
+      knight-Idle_51: 2904905651382124827
+      knight-Idle_2: 8559774172493465876
+      knight-Idle_59: 8268131643061149020
+      knight-Idle_27: 7065346369336829067
+      knight-Idle_16: 2103925689360431451
+      knight-Idle_52: 2446657902371526230
+      knight-Idle_45: 1159085980864886205
+      knight-Idle_32: 921976368108062699
+      knight-Idle_11: -2237891374443132374
+      knight-Idle_34: 7226224359759929204
+      knight-Idle_15: -2628252844061915552
+      knight-Idle_20: 2883180564670108998
+      knight-Idle_17: -1979350190280324071
+      knight-Idle_13: -1982514832432888642
+      knight-Idle_38: 9034246130843791491
+      knight-Idle_8: 2694091585660667224
+      knight-Idle_29: 2337198930698438622
+      knight-Idle_43: -7418193231094318339
+      knight-Idle_35: -7964110600347484503
+      knight-Idle_56: -4975208690849638891
+      knight-Idle_57: 176341042113431213
+      knight-Idle_37: -8564245086759184648
+      knight-Idle_42: 1105043015731930973
+      knight-Idle_46: 6741117334515472580
+      knight-Idle_44: -6608871406772342310
+      knight-Idle_3: 5497070176343581380
+      knight-Idle_23: -5457936014395060961
+      knight-Idle_54: -8671150656306606434
+      knight-Idle_60: -321835574829416308
+      knight-Idle_19: 8298498951449912622
+      knight-Idle_33: -4813652663104268289
+      knight-Idle_24: 3382579173863279803
+      knight-Idle_36: 2177591951577888902
+      knight-Idle_6: 3557895071254502516
+      knight-Idle_9: -4733269190965842789
+      knight-Idle_7: 6510503130749132156
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

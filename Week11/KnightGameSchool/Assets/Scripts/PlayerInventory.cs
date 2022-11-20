@@ -18,6 +18,10 @@ public class PlayerInventory : MonoBehaviour
     {
         Coins++;
         coinText.text = Coins.ToString();
-        //print(Coins);
+
+        if(Coins >= 6)
+        {
+            GetComponent<PlayerHealth>().EndGame();
+        }
     }
 }

@@ -123,7 +123,7 @@ TextureImporter:
       213: 5599377410223150218
     second: knight-jump_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,6 +144,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -182,6 +183,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -209,6 +211,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1072,6 +1086,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      knight-jump_25: 4776657712486598504
+      knight-jump_33: 7359198968624460804
+      knight-jump_20: 7689670713344772910
+      knight-jump_22: 4812666563351644732
+      knight-jump_14: -5392461061609055395
+      knight-jump_17: 4578175473529550041
+      knight-jump_13: -1279491780409461504
+      knight-jump_3: 3306951863251178367
+      knight-jump_39: 5599377410223150218
+      knight-jump_19: -7387409066002172933
+      knight-jump_10: 3487971579776323625
+      knight-jump_34: 2648542833973455434
+      knight-jump_37: 1447016067143163687
+      knight-jump_38: 299057954961239188
+      knight-jump_15: -3783163080560204959
+      knight-jump_28: 5233978378571428618
+      knight-jump_0: 7607075927902340781
+      knight-jump_5: -7980704530238915001
+      knight-jump_27: -1880829828770314932
+      knight-jump_18: -1045558495798479228
+      knight-jump_4: 5505994544732939048
+      knight-jump_1: -6432042772024222385
+      knight-jump_2: -1066263278609472895
+      knight-jump_6: -4926896418326067434
+      knight-jump_29: -2537104313204087285
+      knight-jump_7: -2912947062826831998
+      knight-jump_35: 3001597834354835417
+      knight-jump_31: -3583419067994725377
+      knight-jump_9: -7879170770440613351
+      knight-jump_16: -1331054181783854577
+      knight-jump_11: 2620922858277545976
+      knight-jump_24: 1187283231071528331
+      knight-jump_26: 7675418305629751713
+      knight-jump_36: 2645912081224218480
+      knight-jump_12: -276964125926823345
+      knight-jump_30: 7838943774223226326
+      knight-jump_23: 7787097901860613804
+      knight-jump_21: -5527262970920482695
+      knight-jump_32: -2072384380116544227
+      knight-jump_8: -4845428760871212468
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
