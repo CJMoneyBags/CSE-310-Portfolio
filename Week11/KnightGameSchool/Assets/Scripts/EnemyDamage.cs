@@ -18,7 +18,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if(otherStay.tag == "Player" && nextDamage < Time.time)
         {
-            //Do Something
+            //control the player health when damage is taken
             PlayerHealth thePlayerHealth = otherStay.gameObject.GetComponent<PlayerHealth>();
             thePlayerHealth.AddDamage(damage);
             nextDamage = Time.time + damageRate;
@@ -28,6 +28,7 @@ public class EnemyDamage : MonoBehaviour
 
     void PushBack(Transform pushedObject)
     {
+        // provide some feed back that damage has happened
         Vector2 pushDirection = new Vector2(0f, (pushedObject.position.y - transform.position.y)).normalized;
         pushDirection *= pushBackForce;
         Rigidbody2D pushRB = pushedObject.gameObject.GetComponent<Rigidbody2D>();

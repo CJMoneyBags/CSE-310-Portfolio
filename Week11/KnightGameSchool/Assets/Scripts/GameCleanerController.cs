@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameCleanerController : MonoBehaviour
+public class GameCleanerController : MonoBehaviour 
 {
+    // kill and destroy things that pass this barrier 
     private void OnTriggerEnter2D(Collider2D other2D)
     {
         if (other2D.tag == "Player")

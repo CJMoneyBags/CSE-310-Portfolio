@@ -15,13 +15,14 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public void AddCoins()
+
     {
         Coins++;
         coinText.text = Coins.ToString();
 
         if(Coins >= 6)
         {
-            GetComponent<PlayerHealth>().EndGame();
+            GetComponent<PlayerHealth>().EndGame(); // win game when 6 coins are collected.
         }
     }
 }

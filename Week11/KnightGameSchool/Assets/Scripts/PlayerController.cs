@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // JUMPING
         if(canMove && grounded && Input.GetAxis("Jump") > 0)
         {
             myAnim.SetBool("isGrounded", false);
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         myAnim.SetBool("isGrounded", grounded);
 
+        // Moving
         float move = Input.GetAxis("Horizontal");
 
 
@@ -72,7 +74,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Flip()
+    void Flip() //flip character to show facing the direction of movement
     {
         facingRight = !facingRight;
         myRenderer.flipX = !myRenderer.flipX;
